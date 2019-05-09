@@ -1,4 +1,4 @@
-# react-use
+# Strapi + react.js + socket.io
 
 Using socket.io with react and strapi
 
