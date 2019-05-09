@@ -1,5 +1,7 @@
 # Strapi + react.js + socket.io
 
+Football Players International stats API
+
 Using socket.io with react and strapi
 
 ![MIX IMAGE](/rsn.png?raw=true)
