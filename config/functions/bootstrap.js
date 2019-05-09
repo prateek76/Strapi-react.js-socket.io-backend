@@ -26,3 +26,14 @@ module.exports = cb => {
   strapi.emitToAllUsers = food => io.emit('player_data', food);
   cb();
 };
+
+/*var io = require('socket.io')(strapi.server);
+
+io.on('connection', client => {
+  client.on('subscribeToTimer', (interval) => {
+    console.log('client is subscribing to timer with interval ', interval);
+    setInterval(() => {
+      client.emit('timer', new Date());
+    }, interval);
+  });
+});*/
