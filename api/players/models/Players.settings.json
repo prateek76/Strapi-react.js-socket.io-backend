@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "players",
+  "info": {
+    "name": "players",
+    "description": "International goals"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "matches": {
+      "type": "integer",
+      "required": true
+    },
+    "goals": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
